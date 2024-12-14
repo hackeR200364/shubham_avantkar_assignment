@@ -1,14 +1,39 @@
 import '../models/options_model.dart';
 
 List<OptionModel> options = [
-  OptionModel(head: 'DPR', selected: false, nav: '/dpr'),
-  OptionModel(head: 'Cash OutFlow', selected: false, nav: '/cash_outflow'),
-  OptionModel(head: 'Cash InFlow', selected: false, nav: '/cash_inflow'),
   OptionModel(
-      head: 'Material Issues', selected: false, nav: '/material_issues'),
+    head: 'DPR',
+    nav: '/dpr',
+    index: 0,
+  ),
   OptionModel(
-      head: 'M Reconciliation', selected: false, nav: '/m_reconciliation'),
+    head: 'Cash OutFlow',
+    nav: '/cash_outflow',
+    index: 1,
+  ),
   OptionModel(
-      head: 'Material Reciept', selected: false, nav: '/material_receipt'),
-  OptionModel(head: 'Go to Dashboard', selected: false, nav: '/dashboard'),
+    head: 'Cash InFlow',
+    nav: '/cash_inflow',
+    index: 2,
+  ),
+  OptionModel(
+    head: 'Material Issues',
+    nav: '/material_issues',
+    index: 3,
+  ),
+  OptionModel(
+    head: 'M Reconciliation',
+    nav: '/m_reconciliation',
+    index: 4,
+  ),
+  OptionModel(
+    head: 'Material Reciept',
+    nav: '/material_receipt',
+    index: 5,
+  ),
+  OptionModel(
+    head: 'Go to Dashboard',
+    nav: '/dashboard',
+    index: 6,
+  ),
 ];
